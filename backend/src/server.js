@@ -1,5 +1,7 @@
 const express = require('express');
 
+const routes = require('./routes');
+
 const app = express();
 
 //req.query = Para acessar as Query Params (para filtros nas requisições);
@@ -8,10 +10,6 @@ const app = express();
 
     app.use(express.json());
 
-    app.get('/users', (req, res) => {
-        
-        return res.json({ id: req.body });
-
-    });
+    app.use(routes);
 
     app.listen(3333);
