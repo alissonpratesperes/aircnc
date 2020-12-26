@@ -5,10 +5,24 @@
 // Update - Alteração de uma Sessão para esse Controller;
 // Destroy - Remover ou Deletar uma Sessão para esse Controller.
 
-module.exports = {
+const User = require('../models/User');
 
-    store(req, res) {
-        return res.json ({ message: "Hello World" });
-    }
+    module.exports = {
 
-};
+        async store(req, res) {
+            
+            const { email } = req.body;
+
+                let user = await User.findOne({ email });
+
+                    if(!user) {
+
+                        user = await User.create({ email }); 
+                    
+                    }
+
+                        return res.json(user);
+
+        }
+
+    };
