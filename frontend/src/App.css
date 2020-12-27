@@ -116,6 +116,10 @@ body, input, button {
 
 .content form label span {
 
+  font-weight: normal;
+
+  font-size: 14px;
+
   color: #E14F50;
 
 }

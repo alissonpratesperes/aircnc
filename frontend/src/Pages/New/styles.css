@@ -1,0 +1,53 @@
+label#thumbnail {
+
+    margin-bottom: 20px;
+
+    border: 2px dashed #DDDDDD;
+
+    border-radius: 10px;
+
+    background-size: cover;
+
+    cursor: pointer;
+
+    height: 160px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+label#thumbnail input {
+
+    display: none;
+
+}
+
+label#thumbnail img {
+
+    width: 50px;
+
+}
+
+label#thumbnail:hover {
+
+    border: 2px dashed #444444;
+
+}
+
+label#thumbnail.has-thumbnail {
+
+    border: 0px;
+
+}
+
+label#thumbnail.has-thumbnail img {
+
+    display: none;
+
+}
