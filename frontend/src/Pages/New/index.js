@@ -67,13 +67,13 @@ import './styles.css';
 
                                 <label htmlFor="techs"> TECNOLOGIAS <span> * </span> <span> (separadas por vírgula) </span> </label>
 
-                                <input id="techs" placeholder="Tecnologias utilizadas pela sua empresa" value={ techs } onChange={ event => setTechs(event.target.value) }/>
+                                    <input id="techs" placeholder="Tecnologias utilizadas pela sua empresa" value={ techs } onChange={ event => setTechs(event.target.value) }/>
 
-                                    <label htmlFor="techs"> VALOR DA DIÁRIA <span> * </span> <span> (em branco para gratuita) </span> </label>
+                                        <label htmlFor="techs"> VALOR DA DIÁRIA <span> * </span> <span> (em branco para gratuita) </span> </label>
 
-                                    <input id="price" placeholder="Valor desejado para a diária" value={ price } onChange={ event => setPrice(event.target.value) }/>
+                                            <input id="price" placeholder="Valor desejado para a diária" value={ price } onChange={ event => setPrice(event.target.value) }/>
 
-                                        <button type="submit" className="btn"> Cadastrar Spot </button>
+                                                <button type="submit" className="btn"> Cadastrar Spot </button>
 
                     </form>
 
