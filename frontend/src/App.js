@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import api from './services/api';
 
 import './App.css';
 
@@ -6,31 +8,43 @@ import logo from './assets/logo.svg';
 
   function App() {
 
-    return (
+    const [email, setEmail] = useState('');
 
-      <div className="container">
+      async function handleSubmit(event) {
 
-        <img src={logo} alt="Air CnC"/>
+        event.preventDefault();
 
-          <div className="content">
+          const response = await api.post('/sessions', { email });
 
-            <p> Ofereça <strong> spots </strong> para programadores e encontre <strong> talentos </strong> para sua empresa </p>
+            console.log(response);
 
-              <form>
+      }
 
-                <label htmlFor="email"> E-MAIL <span> * </span> </label>
+        return (
 
-                  <input type="email" id="email" placeholder="Seu melhor e-mail"/>
+          <div className="container">
 
-                    <button className="btn" type="submit"> Entrar </button>
+            <img src={ logo } alt="Air CnC"/>
 
-              </form>
+              <div className="content">
+
+                <p> Ofereça <strong> spots </strong> para programadores e encontre <strong> talentos </strong> para sua empresa </p>
+
+                  <form onSubmit={ handleSubmit }>
+
+                    <label htmlFor="email"> E-MAIL <span> * </span> </label>
+
+                      <input type="email" id="email" placeholder="Seu melhor e-mail" value={ email } onChange={ event => setEmail(event.target.value) }/>
+
+                        <button className="btn" type="submit"> Entrar </button>
+
+                  </form>
+
+              </div>
 
           </div>
 
-      </div>
-
-    );
+        );
 
   }
 
