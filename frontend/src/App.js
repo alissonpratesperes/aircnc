@@ -14,7 +14,7 @@ import logo from './assets/logo.svg';
 
           <div className="content">
 
-            <p> Ofereça <strong> spots </strong> para programadores e encontre <strong> talentos </strong> para sua empresa. </p>
+            <p> Ofereça <strong> spots </strong> para programadores e encontre <strong> talentos </strong> para sua empresa </p>
 
               <form>
 
@@ -22,7 +22,7 @@ import logo from './assets/logo.svg';
 
                   <input type="email" id="email" placeholder="Seu melhor e-mail"/>
 
-                    <button type="submit"> Entrar </button>
+                    <button className="btn" type="submit"> Entrar </button>
 
               </form>
 
