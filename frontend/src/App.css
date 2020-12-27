@@ -50,6 +50,12 @@ body, input, button {
 
 }
 
+.container img {
+
+  width: 270px;
+
+}
+
 .content {
 
   width: 100%;
