@@ -58,9 +58,11 @@ body, input, button {
 
   margin-top: 50px;
 
-  border-radius: 4px;
+  border-radius: 15px;
 
   padding: 30px;
+
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.7);
 
 }
 
@@ -71,6 +73,16 @@ body, input, button {
   line-height: 30px;
 
   margin-bottom: 30px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+.content > p strong {
+
+  color: #E14F50;
 
 }
 
@@ -90,7 +102,15 @@ body, input, button {
 
   font-weight: bold;
 
+  margin-left: 16px;
+
   margin-bottom: 8px;
+
+}
+
+.content form label span {
+
+  color: #E14F50;
 
 }
 
@@ -98,9 +118,9 @@ body, input, button {
 
   margin-bottom: 20px;
 
-  border: 1px solid #DDDDDD;
+  border: 2px solid #DDDDDD;
 
-  border-radius: 2px;
+  border-radius: 10px;
 
   height: 45px;
 
@@ -108,13 +128,21 @@ body, input, button {
 
   font-size: 16px;
 
+  transition: all 0.3s ease-in-out;
+
+}
+
+.content form input:focus {
+
+  border: 2px solid #444444;
+
 }
 
 .content button.btn {
 
   border: 0px;
 
-  border-radius: 2px;
+  border-radius: 10px;
 
   width: 100%;
 
@@ -130,7 +158,11 @@ body, input, button {
 
   color: #FFFFFF;
 
+  text-transform: uppercase;
+
   cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
 
 }
 

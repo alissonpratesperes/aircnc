@@ -18,7 +18,7 @@ import logo from './assets/logo.svg';
 
               <form>
 
-                <label htmlFor="email"> E-MAIL * </label>
+                <label htmlFor="email"> E-MAIL <span> * </span> </label>
 
                   <input type="email" id="email" placeholder="Seu melhor e-mail"/>
 
