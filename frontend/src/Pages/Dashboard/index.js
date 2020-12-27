@@ -44,7 +44,7 @@ import './styles.css';
 
                                         <strong> { spot.company } </strong>
 
-                                            <span> { spot.price ? `R$${ spot.price }/Diário` : 'Gratuito' } </span>
+                                            <span> { spot.price ? `Diária de R$${ spot.price },00` : 'Diária Gratuita' } </span>
 
                                 </li>
 

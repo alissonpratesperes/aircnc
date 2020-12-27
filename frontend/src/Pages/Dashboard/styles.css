@@ -6,7 +6,7 @@ ul.spot-list {
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 
     grid-gap: 20px;
 
@@ -30,7 +30,7 @@ ul.spot-list li header {
 
     background-size: cover;
 
-    border-radius: 4px;
+    border-radius: 10px;
 
 }
 
@@ -46,8 +46,10 @@ ul.spot-list li strong {
 
 ul.spot-list li span {
 
-    font-size: 15px;
+    font-size: 16px;
     
-    color: #999999;
+    color: #E14F50;
+
+    margin-top: 5px;
 
 }
