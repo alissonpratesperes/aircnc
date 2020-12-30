@@ -45,23 +45,23 @@ import logo from '../assets/logo.png';
 
                 return (
 
-                    <KeyboardAvoidingView enabled={ Platform.OS === 'ios' } behavior="padding" style={ styles.container } >
+                    <KeyboardAvoidingView enabled={ Platform.OS === 'ios' } behavior="padding" style={ styles.container }>
 
-                            <Image source ={ logo } />
+                            <Image source ={ logo }/>
 
-                                <View style={ styles.form } >
+                                <View style={ styles.form }>
 
-                                    <Text style={ styles.label } > SEU E-MAIL <Text style={ styles.span } >*</Text> </Text>
+                                    <Text style={ styles.label }> SEU E-MAIL <Text style={ styles.span }>*</Text> </Text>
 
-                                        <TextInput style={ styles.input } placeholder="Seu melhor e-mail" keyboardType="email-address" autoCapitalize="none" autoCorrect={ false } value={ email } onChangeText={ setEmail } />
+                                        <TextInput style={ styles.input } placeholder="Seu melhor e-mail" keyboardType="email-address" autoCapitalize="none" autoCorrect={ false } value={ email } onChangeText={ setEmail }/>
 
-                                            <Text style={ styles.label } > TECNOLOGIAS <Text style={ styles.span } >*</Text> </Text>
+                                            <Text style={ styles.label }> TECNOLOGIAS <Text style={ styles.span }>*</Text> </Text>
 
-                                                <TextInput style={ styles.input } placeholder="Tecnologias de interesse" autoCapitalize="words" autoCorrect={ false } value={ techs } onChangeText={ setTechs } />
+                                                <TextInput style={ styles.input } placeholder="Tecnologias de interesse" autoCapitalize="words" autoCorrect={ false } value={ techs } onChangeText={ setTechs }/>
 
-                                                    <TouchableOpacity onPress={ handleSubmit } style={ styles.button } >
+                                                    <TouchableOpacity onPress={ handleSubmit } style={ styles.button }>
 
-                                                        <Text style={ styles.buttonText } > ENCONTRAR SPOTS </Text>
+                                                        <Text style={ styles.buttonText }> ENCONTRAR SPOTS </Text>
 
                                                     </TouchableOpacity>
 
@@ -78,7 +78,9 @@ import logo from '../assets/logo.png';
             container: {
 
                 flex: 1,
+
                 justifyContent: 'center',
+
                 alignItems: 'center',
 
             },
@@ -86,7 +88,9 @@ import logo from '../assets/logo.png';
             label: {
 
                 fontWeight: 'bold',
+
                 color: '#444444',
+
                 marginBottom: 8,
 
             },
@@ -100,7 +104,9 @@ import logo from '../assets/logo.png';
             form: {
 
                 alignSelf: 'stretch',
+
                 paddingHorizontal: 30,
+
                 marginTop: 30,
 
             },
@@ -108,11 +114,17 @@ import logo from '../assets/logo.png';
             input: {
 
                 borderWidth: 1,
+
                 borderColor: '#DDDDDD',
+
                 paddingHorizontal: 20,
+
                 fontSize: 16,
+
                 height: 44,
+
                 marginBottom: 20,
+
                 borderRadius: 10,
 
             },
@@ -120,18 +132,24 @@ import logo from '../assets/logo.png';
             button: {
 
                 height: 42,
+
                 backgroundColor: '#F05A5B',
+
                 justifyContent: 'center',
+
                 alignItems: 'center',
-                borderRadius: 10
+
+                borderRadius: 10,
 
             },
 
             buttonText: {
 
                 color: '#FFFFFF',
+
                 fontWeight: 'bold',
-                fontSize: 16
+
+                fontSize: 16,
 
             },
 
