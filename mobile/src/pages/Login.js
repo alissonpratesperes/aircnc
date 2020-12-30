@@ -64,6 +64,7 @@ import logo from '../assets/logo.png';
 
             alignSelf: 'stretch',
             paddingHorizontal: 30,
+            marginTop: 30,
 
         },
 
