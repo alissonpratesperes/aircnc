@@ -1,104 +1,141 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
-import { View, KeyboardAvoidingView, Platform, Image, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, AsyncStorage, KeyboardAvoidingView, Platform, Image, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+
+import api from '../services/api';
 
 import logo from '../assets/logo.png';
 
-    function Login() {
+    function Login({ navigation }) {
 
-        return (
+        const [email, setEmail] = useState('');
 
-            <KeyboardAvoidingView enabled={ Platform.OS === 'ios' } behavior="padding" style={ styles.container } >
+        const [techs, setTechs] = useState('');
 
-                    <Image source ={ logo } />
+            useEffect( () => {
 
-                        <View style={ styles.form } >
+                AsyncStorage.getItem('user').then(user => {
 
-                            <Text style={ styles.label } > SEU E-MAIL <Text style={ styles.span } >*</Text> </Text>
+                    if (user) {
 
-                                <TextInput style={ styles.input } placeholder="Seu melhor e-mail" keyboardType="email-address" autoCapitalize="none" autoCorrect={ false } />
+                        navigation.navigate('List');
 
-                                    <Text style={ styles.label } > TECNOLOGIAS <Text style={ styles.span } >*</Text> </Text>
+                    }
 
-                                        <TextInput style={ styles.input } placeholder="Tecnologias de interesse" autoCapitalize="words" autoCorrect={ false } />
+                })
 
-                                            <TouchableOpacity style={ styles.button } >
+            }, []);
 
-                                                <Text style={ styles.buttonText } > ENCONTRAR SPOTS </Text>
+            async function handleSubmit() {
 
-                                            </TouchableOpacity>
+                const response = await api.post('/sessions', {
 
-                        </View>
+                    email
 
-            </KeyboardAvoidingView>
+                })
 
-        );
+                    const { _id } = response.data;
+
+                        await AsyncStorage.setItem('user', _id);
+                        await AsyncStorage.setItem('techs', techs);
+
+                            navigation.navigate('List');
+
+            }
+
+                return (
+
+                    <KeyboardAvoidingView enabled={ Platform.OS === 'ios' } behavior="padding" style={ styles.container } >
+
+                            <Image source ={ logo } />
+
+                                <View style={ styles.form } >
+
+                                    <Text style={ styles.label } > SEU E-MAIL <Text style={ styles.span } >*</Text> </Text>
+
+                                        <TextInput style={ styles.input } placeholder="Seu melhor e-mail" keyboardType="email-address" autoCapitalize="none" autoCorrect={ false } value={ email } onChangeText={ setEmail } />
+
+                                            <Text style={ styles.label } > TECNOLOGIAS <Text style={ styles.span } >*</Text> </Text>
+
+                                                <TextInput style={ styles.input } placeholder="Tecnologias de interesse" autoCapitalize="words" autoCorrect={ false } value={ techs } onChangeText={ setTechs } />
+
+                                                    <TouchableOpacity onPress={ handleSubmit } style={ styles.button } >
+
+                                                        <Text style={ styles.buttonText } > ENCONTRAR SPOTS </Text>
+
+                                                    </TouchableOpacity>
+
+                                </View>
+
+                    </KeyboardAvoidingView>
+
+                );
 
     }
 
-    const styles = StyleSheet.create({
+        const styles = StyleSheet.create({
 
-        container: {
+            container: {
 
-            flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center',
+                flex: 1,
+                justifyContent: 'center',
+                alignItems: 'center',
 
-        },
+            },
 
-        label: {
+            label: {
 
-            fontWeight: 'bold',
-            color: '#444444',
-            marginBottom: 8,
+                fontWeight: 'bold',
+                color: '#444444',
+                marginBottom: 8,
 
-        },
+            },
 
-        span: {
+            span: {
 
-            color: '#E14F50',
+                color: '#E14F50',
 
-        },
+            },
 
-        form: {
+            form: {
 
-            alignSelf: 'stretch',
-            paddingHorizontal: 30,
-            marginTop: 30,
+                alignSelf: 'stretch',
+                paddingHorizontal: 30,
+                marginTop: 30,
 
-        },
+            },
 
-        input: {
+            input: {
 
-            borderWidth: 1,
-            borderColor: '#DDDDDD',
-            paddingHorizontal: 20,
-            fontSize: 16,
-            height: 44,
-            marginBottom: 20,
-            borderRadius: 10,
+                borderWidth: 1,
+                borderColor: '#DDDDDD',
+                paddingHorizontal: 20,
+                fontSize: 16,
+                height: 44,
+                marginBottom: 20,
+                borderRadius: 10,
 
-        },
+            },
 
-        button: {
+            button: {
 
-            height: 42,
-            backgroundColor: '#F05A5B',
-            justifyContent: 'center',
-            alignItems: 'center',
-            borderRadius: 10
+                height: 42,
+                backgroundColor: '#F05A5B',
+                justifyContent: 'center',
+                alignItems: 'center',
+                borderRadius: 10
 
-        },
+            },
 
-        buttonText: {
+            buttonText: {
 
-            color: '#FFFFFF',
-            fontWeight: 'bold',
-            fontSize: 16
+                color: '#FFFFFF',
+                fontWeight: 'bold',
+                fontSize: 16
 
-        },
+            },
 
-    });
+        });
 
 
-        export default Login;
+            export default Login;
