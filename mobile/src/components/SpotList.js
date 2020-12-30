@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
+import { withNavigation } from 'react-navigation';
+
 import { View, StyleSheet, Text, FlatList, Image, TouchableOpacity } from 'react-native';
 
 import api from '../services/api';
 
-    export default function SpotList({ tech }) {
+    function SpotList({ tech, navigation }) {
 
         const [spots, setSpots] = useState([]);
 
@@ -26,35 +28,41 @@ import api from '../services/api';
 
             }, []);
 
-                return (
-                
-                    <View style={ styles.container }>
+                function handleNavigate(id) {
 
-                        <Text style={ styles.title }> Empresas que usam <Text style={ styles.bold }>{ tech }</Text> </Text>
+                    navigation.navigate('Book', { id });
 
-                            <FlatList style={ styles.list } data={ spots } keyExtractor={ spot => spot._id } horizontal showsHorizontalScrollIndicator={ false } renderItem={ ({ item }) => (
+                }
 
-                                <View style={ styles.listItem }>
+                    return (
+                    
+                        <View style={ styles.container }>
 
-                                    <Image style={ styles.thumbnail } source={ { uri: item.thumbnail_url } }/>
+                            <Text style={ styles.title }> Empresas que usam <Text style={ styles.bold }>{ tech }</Text> </Text>
 
-                                        <Text style={ styles.company }> { item.company } </Text>
+                                <FlatList style={ styles.list } data={ spots } keyExtractor={ spot => spot._id } horizontal showsHorizontalScrollIndicator={ false } renderItem={ ({ item }) => (
 
-                                            <Text style={ styles.price }> { item.price ? `Diária de R$${ item.price },00` : 'Diária Gratuita' } </Text>
+                                    <View style={ styles.listItem }>
 
-                                                <TouchableOpacity onPress={ () => {} } style={ styles.button }>
+                                        <Image style={ styles.thumbnail } source={ { uri: item.thumbnail_url } }/>
 
-                                                    <Text style={ styles.buttonText }> SOLICITAR RESERVA </Text>
+                                            <Text style={ styles.company }> { item.company } </Text>
 
-                                                </TouchableOpacity>
+                                                <Text style={ styles.price }> { item.price ? `Diária de R$${ item.price },00` : 'Diária Gratuita' } </Text>
 
-                                </View>
+                                                    <TouchableOpacity onPress={ () => handleNavigate(item._id) } style={ styles.button }>
 
-                            ) }/>
+                                                        <Text style={ styles.buttonText }> SOLICITAR RESERVA </Text>
 
-                    </View>
+                                                    </TouchableOpacity>
 
-                )
+                                    </View>
+
+                                ) }/>
+
+                        </View>
+
+                    )
 
     }
 
@@ -159,3 +167,5 @@ import api from '../services/api';
             },
 
         });
+
+            export default withNavigation(SpotList);

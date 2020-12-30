@@ -1,10 +1,20 @@
 import React from 'react';
 
-import { View } from 'react-native';
+import { SafeAreaView, AsyncStorage, Text } from 'react-native';
 
-    function Book() {
+    function Book({ navigation }) {
 
-        return <View />
+        const id = navigation.getParam('id');
+
+        return (
+
+            <SafeAreaView>
+        
+                <Text> { id } </Text>
+
+            </SafeAreaView>
+
+        )
 
     }
 
