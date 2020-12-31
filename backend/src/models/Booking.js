@@ -6,8 +6,6 @@ const BookingSchema = new mongoose.Schema({
 
     approved: Boolean,
 
-
-
     user: {
 
         type: mongoose.Schema.Types.ObjectId,
