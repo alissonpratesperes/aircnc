@@ -53,3 +53,89 @@ ul.spot-list li span {
     margin-top: 5px;
 
 }
+
+ul.notifications {
+
+    list-style: none;
+
+    margin-bottom: 30px;
+
+    background-color: #DDDDDD;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+}
+
+ul.notifications li {
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+    color: #444444;
+
+}
+
+ul.notifications li strong {
+
+    color: #E14F50;
+
+}
+
+ul.notifications li button {
+
+    margin-right: 10px;
+
+    border: 0px;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+
+}
+
+ul.notifications li button.accept {
+
+    background-color: #84C870;
+
+    padding: 10px;
+
+    color: #FFFFFF;
+
+    border-radius: 7px;
+
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+
+}
+
+ul.notifications li button.reject {
+
+    background-color: #E55E5E;
+
+    padding: 10px;
+
+    color: #FFFFFF;
+
+    border-radius: 7px;
+
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+
+}
+
+ul.notifications li button.accept:hover {
+
+    background-color: #4ACA23;
+
+}
+
+ul.notifications li button.reject:hover {
+
+    background-color: #DB3E3E;
+
+}
