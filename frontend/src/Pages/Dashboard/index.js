@@ -16,7 +16,7 @@ import './styles.css';
 
         const user_id = localStorage.getItem('user');
 
-        const socket = useMemo( () => socketio('http://localhost:3333/', {
+        const socket = useMemo( () => socketio('http://192.168.0.101:3333/', {
 
             query: { user_id },
 
@@ -52,58 +52,74 @@ import './styles.css';
 
             }, []);
 
-                return (
-    
-                    <>
+                async function handleAccept(id) {
 
-                        <ul className="notifications">
+                    await api.post(`/bookings/${id}/approvals`);
 
-                            { requests.map( request => (
+                        setRequests(requests.filter(request => request._id !== id));
 
-                                <li key={ request._id }>
+                }
 
-                                    <p>
+                async function handleReject(id) {
 
-                                        <strong>{ request.user.email }</strong> está solicitando uma reserva em <strong>{ request.spot.company }</strong> para a data: <strong>{ request.date }</strong>
+                    await api.post(`/bookings/${id}/rejections`);
 
-                                    </p>
+                        setRequests(requests.filter(request => request._id !== id));
 
-                                        <button className="accept"> ACEITAR </button>
+                }
 
-                                        <button className="reject"> REJEITAR </button>
+                    return (
+        
+                        <>
 
-                                </li>
+                            <ul className="notifications">
 
-                            ) ) }
+                                { requests.map( request => (
 
-                        </ul>
+                                    <li key={ request._id }>
 
-                        <ul className="spot-list">
+                                        <p>
 
-                            { spots.map(spot => (
+                                            <strong>{ request.user.email }</strong> está solicitando uma reserva em <strong>{ request.spot.company }</strong> para a data: <strong>{ request.date }</strong>
 
-                                <li key={ spot._id }>
+                                        </p>
 
-                                    <header style={ { backgroundImage: `url(${ spot.thumbnail_url })` } } />
+                                            <button className="accept" onClick={ () => handleAccept(request._id) }> ACEITAR </button>
 
-                                        <strong> { spot.company } </strong>
+                                            <button className="reject" onClick={ () => handleReject(request._id) }> REJEITAR </button>
 
-                                            <span> { spot.price ? `Diária de R$${ spot.price },00` : 'Diária Gratuita' } </span>
+                                    </li>
 
-                                </li>
+                                ) ) }
 
-                            )) }
+                            </ul>
 
-                        </ul>
+                            <ul className="spot-list">
 
-                                <Link to="/new"> 
-                                
-                                    <button className="btn"> Cadastrar Novo Spot </button>
+                                { spots.map(spot => (
 
-                                 </Link>
+                                    <li key={ spot._id }>
 
-                    </>
+                                        <header style={ { backgroundImage: `url(${ spot.thumbnail_url })` } } />
 
-                )
+                                            <strong> { spot.company } </strong>
+
+                                                <span> { spot.price ? `Diária de R$${ spot.price },00` : 'Diária Gratuita' } </span>
+
+                                    </li>
+
+                                )) }
+
+                            </ul>
+
+                                    <Link to="/new"> 
+                                    
+                                        <button className="btn"> Cadastrar Novo Spot </button>
+
+                                    </Link>
+
+                        </>
+
+                    )
 
     }

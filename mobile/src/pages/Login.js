@@ -18,7 +18,7 @@ import logo from '../assets/logo.png';
 
                     if (user) {
 
-                        navigation.navigate('List');
+                        //navigation.navigate('List');
 
                     }
 

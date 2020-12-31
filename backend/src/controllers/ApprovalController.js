@@ -1,7 +1,5 @@
 const Booking = require('../models/Booking');
 
-const { store } = require("./SessionController");
-
 module.exports = {
 
     async store(req, res) {
@@ -14,7 +12,15 @@ module.exports = {
 
                 await booking.save();
 
-                    return res.json(booking);
+                    const bookingUserSocket = req.connectedUsers[ booking.user ];
+
+                        if(bookingUserSocket) {
+
+                            req.io.to(bookingUserSocket).emit('booking_response', booking);
+
+                        }
+
+                            return res.json(booking);
 
     }
 

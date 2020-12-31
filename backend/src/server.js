@@ -29,6 +29,8 @@ const io = socketio(server);
 
             io.on('connection', socket => {
 
+                console.log('conectado, mano', socket.id);
+
                 const { user_id } = socket.handshake.query;
 
                     connectedUsers[ user_id ] = socket.id;
