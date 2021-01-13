@@ -1,141 +1,91 @@
 ul.spot-list {
-
     width: 100%;
-
     list-style: none;
-
     display: grid;
-
-    grid-template-columns: 1fr 1fr ;
-
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-
     margin-bottom: 30px;
-
 }
 
 ul.spot-list li {
-
     display: flex;
-
     flex-direction: column;
-
+    background-color: #E8EBF7;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 ul.spot-list li header {
-
     width: 100%;
-
     height: 120px;
-
     background-size: cover;
-
     border-radius: 10px;
-
 }
 
 ul.spot-list li strong {
-
     margin-top: 10px;
-
-    font-size: 24px;
-
+    font-size: 27px;
     color: #444444;
-
+    text-align: center;
 }
 
 ul.spot-list li span {
-
-    font-size: 16px;
-    
+    font-size: 17px;
     color: #E14F50;
-
-    margin-top: 5px;
-
+    margin-top: 10px;
+    text-align: center;
 }
 
 ul.notifications {
-
     list-style: none;
-
-    margin-bottom: 30px;
-
-    background-color: #DDDDDD;
-
-    border-radius: 15px;
-
-    padding: 20px;
-
+    text-align: center;
 }
 
 ul.notifications li {
-
+    margin-bottom: 30px;
+    background-color: #E8EBF7;
+    padding: 10px;
+    border-radius: 10px;
     font-size: 16px;
-
     line-height: 24px;
-
-    color: #444444;
-
 }
 
 ul.notifications li strong {
-
     color: #E14F50;
-
 }
 
 ul.notifications li button {
-
     margin-right: 10px;
-
     border: 0px;
-
     font-weight: bold;
-
-    margin-top: 15px;
-
+    margin-top: 10px;
 }
 
 ul.notifications li button.accept {
-
-    background-color: #84C870;
-
-    padding: 10px;
-
+    margin-left: 10px;
+    background-color: rgba(132, 200, 112, 0.6);
     color: #FFFFFF;
-
+    padding: 7px;
     border-radius: 7px;
-
-    transition: all 0.3s ease;
-
+    font-size: 17px;
     cursor: pointer;
-
-}
-
-ul.notifications li button.reject {
-
-    background-color: #E55E5E;
-
-    padding: 10px;
-
-    color: #FFFFFF;
-
-    border-radius: 7px;
-
     transition: all 0.3s ease;
-
-    cursor: pointer;
-
 }
 
 ul.notifications li button.accept:hover {
+    background-color: rgba(132, 200, 112, 1);
+}
 
-    background-color: #4ACA23;
-
+ul.notifications li button.reject {
+    background-color: rgba(229, 94, 94, 0.6);
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 ul.notifications li button.reject:hover {
-
-    background-color: #DB3E3E;
-
+    background-color: rgba(229, 94, 94, 1);
 }
