@@ -6,17 +6,13 @@ const cors = require('cors');
 
 const path = require('path');
 
-const socketio = require('socket.io');
-
-const http = require('http');
-
 const routes = require('./routes');
 
 const app = express();
 
-const server = http.Server(app);
+const server = require('http').createServer(app);
 
-const io = socketio(server);
+const io = require('socket.io')(server);
 
     mongoose.connect('mongodb+srv://omnistack_dev:KcAtSiNm0O@omnistack9.pwlbv.mongodb.net/omnistack9?retryWrites=true&w=majority', {
 
@@ -25,27 +21,15 @@ const io = socketio(server);
 
     });
 
-        const connectedUsers = {};
+
 
             io.on('connection', socket => {
 
-                console.log('conectado, mano', socket.id);
-
-                const { user_id } = socket.handshake.query;
-
-                    connectedUsers[ user_id ] = socket.id;
+                console.log(`Socket conectado :${ socket.id }`);
 
             });
 
-                app.use(( req, res, next ) => {
-
-                    req.io = io;
-
-                        req.connectedUsers = connectedUsers;
-
-                            return next();
-
-                })
+                
             
                     app.use(cors());
 

@@ -16,7 +16,7 @@ import './styles.css';
 
         const user_id = localStorage.getItem('user');
 
-        const socket = useMemo( () => socketio('http://192.168.0.101:3333/', {
+        const socket = useMemo( () => socketio('http://localhost:3333/', {
 
             query: { user_id },
 
@@ -24,9 +24,9 @@ import './styles.css';
 
             useEffect( () => {
 
-                socket.on('booking_request', data => {
+                socket.on('connection', (socket) => {
 
-                    setRequests([ ...requests, data ]);
+                    console.log('conectado', socket.id);
 
                 })
 
