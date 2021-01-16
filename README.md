@@ -1,11 +1,11 @@
-﻿<p align="center"> <img src="github/aircnc_logo.png" width="25%"> </p>
+﻿<p align="center"> <img src="github/aircnc_logo.png" width="40%"> </p>
 
----
+___
 
-<h4 align="center"> ⌨️ Air Code & Coffee ☕ </h4>
+<p align="center">  💻  Air Code & Coffee  ☕  </p>
 
 <p align="center">
-<a href="https://www.instagram.com/a_pratesperes" target="_blank"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Alisson%20Prates%20Peres-%23F05A5B"/></a>
+<a href="https://www.instagram.com/a_pratesperes"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Alisson%20Prates%20Peres-%23F05A5B"/></a>
 <img alt="GitHub language count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/jpgobbi.svg?color=%23F05A5B"/>
 <img alt="Repository size" src="https://img.shields.io/github/repo-size/alissonpratesperes/aircnc?color=%23F05A5B">
 <a href="https://github.com/alissonpratesperes/aircnc/commits/main">
@@ -13,19 +13,14 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/alissonpratesperes/aircnc?color=%23F05A5B">
 </p>
 
-
-
-
-
-
-
 <p align="center">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#video_game-curiosidades">Curiosidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#bomb-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#vertical_traffic_light-importante">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#electric_plug-execute">Execute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#rocket-valor">Valor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#fuelpump-autor">Autor</a>
+<a href="#fuelpump-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#memo-licença">Licença</a>
 </p>
 
 <br>
@@ -34,35 +29,29 @@
 
 ## :dart: Sobre
 
-Primeiro projeto desenvolvido como eugência para a primeira empresa cliente. Através do desenvolvimento de um site institucional leve, moderno, responsivo e acessível por qualquer plataforma/dispositivo.
+O **AirCnC** é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com outros devs, conhecer a empresa e trabalhar lá por um período.
 
 ## :battery: Tecnologias
 
-Essa aplicação foi desenvolvida do zero, utilizando as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML 5
-- CSS 3
-- JAVASCRIPT
+- NodeJS
+- ReactJS
+- React Native
+- Expo
 
-## :video_game: Curiosidades
+## :vertical_traffic_light: Importante
 
-- Responsivo, acesse pelo Computador, Tablet ou Smartphone;
+Para executar esse projeto em sua máquina, é necessário ter os seguintes softwares instalados:
 
-- APIs nos cards de contato, utiliza os principais aplicativos atuais para entrar em contato com a empresa;
+- MongoDB: **Conta na MongoDB para o Banco de Dados**;
+- NodeJS: **Para o Javascript no BackEnd**;
+- NPM ou YARN **Gerenciadores de Pacotes para as Dependências**;
+- Expo-CLI **Abstração para a execução do Aplicativo Mobile**;
 
-- Aplicação preparada para a navegação crossbrowsing, pronta para rodar em qualquer plataforma/sistema.
+## :electric_plug: Execute
 
-## :bomb: Features
-
-Implementadas novas features que não estavam no escopo do projeto, mas que serviram como melhoria e design:
-
-- **ProgressBar** na parte inferior da página. Para *exibir o progresso atual da navegação*;
-
-- **ScrollSpy** no menu de navegação. Para *indicar qual seção ativa em tela durante a rolagem*;
-
-- **AutoHide** na barra de navegação. Para *aumentar o aproveitamento de tela no dispositivo;*
-
-- **SmoothScroll** em *código puro*. Para *rolagem suave independente do navegador/plataforma utilizada*;
+- ;
 
 ## :rocket: Valor
 
@@ -76,7 +65,13 @@ Iniciando nessa área de desenvolvimento como eugência, o objetivo é entregar 
 
 ## :fuelpump: Autor
 
-- *Eu mesmo!* 🕺🏻 Gostou do meu trabalho? 🤞🏻 Siga o meu perfil aqui e acompanhe mais alguns dos meus projetos! 👇🏻
+- Projeto desenvolvido durante a **OmniStack Week 9** da <a href="https://rocketseat.com.br/">Rocketseat</a>, workshop online que aconteceu em **Outubro de 2019**;
+
+- O **repositório oficial** desse projeto pode ser acessado <a href="https://github.com/rocketseat-education/semana-omnistack-9">nesse link</a>.
+
+## :memo: Licença
+
+- Esse projeto está sob a **Licença MIT**. Veja o arquivo [LICENSE](https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE) para mais detalhes.
 
 ---
 
