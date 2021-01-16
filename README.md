@@ -1,15 +1,23 @@
-﻿<p align="center">
-  <img src="github/company.png" width="25%">
-</p>
+﻿<p align="center"> <img src="github/aircnc_logo.png" width="25%"> </p>
+
+---
+
+<h4 align="center"> ⌨️ Air Code & Coffee ☕ </h4>
 
 <p align="center">
-<img alt="GitHub language count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/jpgobbi.svg"/>
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/alissonpratesperes/jpgobbi.svg">
-<a
-href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alissonpratesperes/jpgobbi.svg">
-</a>
+<a href="https://www.instagram.com/a_pratesperes" target="_blank"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Alisson%20Prates%20Peres-%23F05A5B"/></a>
+<img alt="GitHub language count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/jpgobbi.svg?color=%23F05A5B"/>
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/alissonpratesperes/aircnc?color=%23F05A5B">
+<a href="https://github.com/alissonpratesperes/aircnc/commits/main">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alissonpratesperes/aircnc?color=%23F05A5B"></a>
+<img alt="GitHub" src="https://img.shields.io/github/license/alissonpratesperes/aircnc?color=%23F05A5B">
 </p>
+
+
+
+
+
+
 
 <p align="center">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -22,9 +30,7 @@ href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
 
 <br>
 
-<p align="center">
-  <img src="github/dashboard.jpg" width="100%">
-</p>
+<p align="center"> <img src="github/aircnc_dashboard.jpg" width="100%"> </p>
 
 ## :dart: Sobre
 
