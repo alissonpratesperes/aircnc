@@ -1,8 +1,8 @@
-﻿<p align="center"> <img src="github/aircnc_logo.png" width="40%"> </p>
+﻿<p align="center"> <img src="github/aircnc_logo.png" width="30%"> </p>
 
 ___
 
-<p align="center">  💻  Air Code & Coffee  ☕  </p>
+<p align="center">  💻&nbsp;&nbsp;Air Code & Coffee&nbsp;&nbsp;☕  </p>
 
 <p align="center">
 <a href="https://www.instagram.com/a_pratesperes"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Alisson%20Prates%20Peres-%23F05A5B"/></a>
@@ -18,14 +18,14 @@ ___
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#vertical_traffic_light-importante">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#electric_plug-execute">Execute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#rocket-valor">Valor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#fuelpump-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#memo-licença">Licença</a>
 </p>
 
-<br>
+<br/>
 
 <p align="center"> <img src="github/aircnc_dashboard.jpg" width="100%"> </p>
+<br/>
 
 ## :dart: Sobre
 
@@ -35,33 +35,19 @@ O **AirCnC** é um projeto que visa conectar empresas que querem abrir spots e d
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- NodeJS
-- ReactJS
-- React Native
-- Expo
+- MongoDB: **Conta na MongoDB para o Banco de Dados**;
+- NodeJS: **Para o Javascript no BackEnd**;
+- NPM ou YARN: **Gerenciadores de Pacotes para as Dependências**;
+- React Native: **Framework Javascript para o Mobile;**
+- Expo-CLI **Abstração para a execução do Aplicativo Mobile**;
 
 ## :vertical_traffic_light: Importante
 
-Para executar esse projeto em sua máquina, é necessário ter os seguintes softwares instalados:
-
-- MongoDB: **Conta na MongoDB para o Banco de Dados**;
-- NodeJS: **Para o Javascript no BackEnd**;
-- NPM ou YARN **Gerenciadores de Pacotes para as Dependências**;
-- Expo-CLI **Abstração para a execução do Aplicativo Mobile**;
+- ;
 
 ## :electric_plug: Execute
 
 - ;
-
-## :rocket: Valor
-
-Iniciando nessa área de desenvolvimento como eugência, o objetivo é entregar o maior valor possível, seja em resultados ou na redução de custos. Através de:
-
-- Uma aplicação moderna, intuitiva, enxuta e com as melhores tecnologias do mercado;
-
-- Migração de uma hospedagem engessada para uma plataforma flexível, moderna e escalável;
-
-- Redução do valor anual de hospedagem em 52%.
 
 ## :fuelpump: Autor
 
