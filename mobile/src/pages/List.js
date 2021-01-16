@@ -9,7 +9,7 @@ import logo from '../assets/logo.png';
 
             useEffect( () => {
                 AsyncStorage.getItem('user').then(user_id => {
-                    const socket = socketio('http://192.168.1.38:3333', { query: { user_id } })
+                    const socket = socketio('http://192.168.0.101:3333', { query: { user_id } })
                         socket.on('booking_response', booking => {
                             Alert.alert(`Sua solicitação de reserva em ${booking.spot.company} para ${booking.date} foi ${booking.approved ? 'ACEITA' : 'REJEITADA'}`)
                         })
