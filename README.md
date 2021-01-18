@@ -11,7 +11,7 @@ ___
 <img alt="GitHub Code Size" src="https://img.shields.io/github/languages/code-size/alissonpratesperes/aircnc?color=F05A5B"/>
 <a href="https://github.com/alissonpratesperes/aircnc/commits/main">
 <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/alissonpratesperes/aircnc?color=F05A5B"></a>
-<a href ="https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE"> <img alt="GitHub License" src="https://img.shields.io/github/license/alissonpratesperes/aircnc?color=F05A5B"> </a>
+<a href ="https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE.md"> <img alt="GitHub License" src="https://img.shields.io/github/license/alissonpratesperes/aircnc?color=F05A5B"> </a>
 </p>
 
 <p align="center">
