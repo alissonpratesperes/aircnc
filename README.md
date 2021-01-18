@@ -57,7 +57,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Projeto desenvolvido durante a **Semana OmniStack 9** da <a href="https://rocketseat.com.br/">Rocketseat</a>, ocorrida em **Outubro de 2019**;
 
-- Acesse  <a href="https://github.com/rocketseat-education/semana-omnistack-9">aqui</a> o *repositório oficial* da aplicação.
+- Acesse  <a href="https://github.com/rocketseat-education/semana-omnistack-9">aqui</a> o **repositório oficial** da aplicação.
 
 ## :memo: Licença
 
