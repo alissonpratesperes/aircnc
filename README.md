@@ -6,7 +6,7 @@ ___
 <p align="center">
 <a href="https://www.instagram.com/a_pratesperes"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Alisson%20Prates%20Peres-%23F05A5B"/></a>
 <img alt="GitHub Language Count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/aircnc?color=F05A5B"/>
-<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alissonpratesperes/aircnc?color=F05A5B"/>
+<a href="https://github.com/alissonpratesperes/aircnc/search?l=javascript"><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alissonpratesperes/aircnc?color=F05A5B"/></a>
 <img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/alissonpratesperes/aircnc?color=F05A5B">
 <img alt="GitHub Code Size" src="https://img.shields.io/github/languages/code-size/alissonpratesperes/aircnc?color=F05A5B"/>
 <a href="https://github.com/alissonpratesperes/aircnc/commits/main">
