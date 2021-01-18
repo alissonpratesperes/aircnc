@@ -61,7 +61,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :memo: Licença
 
-- Esse projeto está sob a **Licença MIT**. Veja o arquivo [LICENSE](https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE) para mais detalhes.
+- Esse projeto está sob a **Licença MIT**. Veja o arquivo [LICENSE](https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE.md) para mais detalhes.
 
 ---
 
