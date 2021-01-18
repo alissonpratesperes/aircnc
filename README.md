@@ -3,20 +3,20 @@
 ___
 
 <p align="center">  💻&nbsp;&nbsp;Air Code & Coffee&nbsp;&nbsp;☕  </p>
-
 <p align="center">
 <a href="https://www.instagram.com/a_pratesperes"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Alisson%20Prates%20Peres-%23F05A5B"/></a>
-<img alt="GitHub language count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/jpgobbi.svg?color=%23F05A5B"/>
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/alissonpratesperes/aircnc?color=%23F05A5B">
+<img alt="GitHub Language Count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/aircnc?color=F05A5B"/>
+<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alissonpratesperes/aircnc?color=F05A5B"/>
+<img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/alissonpratesperes/aircnc?color=F05A5B">
+<img alt="GitHub Code Size" src="https://img.shields.io/github/languages/code-size/alissonpratesperes/aircnc?color=F05A5B"/>
 <a href="https://github.com/alissonpratesperes/aircnc/commits/main">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alissonpratesperes/aircnc?color=%23F05A5B"></a>
-<img alt="GitHub" src="https://img.shields.io/github/license/alissonpratesperes/aircnc?color=%23F05A5B">
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/alissonpratesperes/aircnc?color=F05A5B"></a>
+<a href ="https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE"> <img alt="GitHub License" src="https://img.shields.io/github/license/alissonpratesperes/aircnc?color=F05A5B"> </a>
 </p>
 
 <p align="center">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#vertical_traffic_light-importante">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#electric_plug-execute">Execute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#fuelpump-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#memo-licença">Licença</a>
@@ -36,15 +36,11 @@ O **AirCnC** é um projeto que visa conectar empresas que querem abrir spots e d
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- MongoDB: **MongoDB Atlas & Compass para o Banco de Dados**;
-- NodeJS: **Para o Javascript no BackEnd**;
-- NPM ou YARN: **Gerenciadores de Pacotes para as Dependências**;
-- React Native: **Framework Javascript para o Mobile;**
-- Expo-CLI **Abstração para a execução do Aplicativo Mobile**;
-
-## :vertical_traffic_light: Importante
-
-- ;
+- <a href="https://www.mongodb.com/">MongoDB</a>: **MongoDB Atlas & Compass para o Banco de Dados**;
+- <a href="https://www.npmjs.com/">NPM</a> ou <a href="https://yarnpkg.com/">YARN</a>: **Gerenciadores de Pacotes para as Dependências**;
+- <a href="https://nodejs.org/en">NodeJS</a>: **Para o Javascript no BackEnd**;
+- <a href="https://reactnative.dev/">React Native</a>: **Framework Javascript para o Mobile;**
+- <a href="https://expo.io/">Expo-CLI</a>: **Abstração para a execução do Aplicativo Mobile**;
 
 ## :electric_plug: Execute
 
@@ -62,9 +58,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :fuelpump: Autor
 
-- Projeto desenvolvido durante a **OmniStack Week 9** da <a href="https://rocketseat.com.br/">Rocketseat</a>, workshop online que aconteceu em **Outubro de 2019**;
+- Esse Projeto foi desenvolvido durante a **OmniStack Week 9** da <a href="https://rocketseat.com.br/">Rocketseat</a>, workshop online que aconteceu em **Outubro de 2019**;
 
-- O **repositório oficial** desse projeto pode ser acessado <a href="https://github.com/rocketseat-education/semana-omnistack-9">nesse link</a>.
+- O **repositório oficial** pode ser acessado <a href="https://github.com/rocketseat-education/semana-omnistack-9">aqui</a>.
 
 ## :memo: Licença
 
