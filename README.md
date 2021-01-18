@@ -36,31 +36,28 @@ O **AirCnC** é um projeto que visa conectar empresas que querem abrir spots e d
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- <a href="https://www.mongodb.com/">MongoDB</a>: **MongoDB Atlas & Compass para o Banco de Dados**;
-- <a href="https://www.npmjs.com/">NPM</a> ou <a href="https://yarnpkg.com/">YARN</a>: **Gerenciadores de Pacotes para as Dependências**;
-- <a href="https://nodejs.org/en">NodeJS</a>: **Para o Javascript no BackEnd**;
-- <a href="https://reactnative.dev/">React Native</a>: **Framework Javascript para o Mobile;**
-- <a href="https://expo.io/">Expo-CLI</a>: **Abstração para a execução do Aplicativo Mobile**;
+- <a href="https://www.npmjs.com/">NPM</a> / <a href="https://yarnpkg.com/">YARN</a>;
+- <a href="https://nodejs.org/en">NodeJS</a>;
+- <a href="https://www.mongodb.com/">MongoDB</a>;
+- <a href="https://reactjs.org/">ReactJS</a>;
+- <a href="https://reactnative.dev/">React Native</a>;
+- <a href="https://expo.io/">Expo-CLI</a>;
 
 ## :electric_plug: Execute
 
-- Através do **Terminal(MacOS)** ou **Prompt de Comando(Windows)** acesse os diretórios através do comando **cd . . / cd 'diretório'** para iniciar a instalação das dependências. *Abra um **terminal** por diretório pois será necessário deixar cada **stack** rodando separadamente*, para facilitar utilize o **Toggle Integrated Terminal** do VSCode;
+- Através do **Terminal(MacOS)** ou **Prompt de Comando(Windows)** acesse os diretórios através do comando **cd . . / cd 'diretório'**. *Abra um **terminal** por diretório pois será necessário deixar cada **stack** rodando separadamente*, para facilitar utilize o **Toggle Integrated Terminal** do VSCode;
 
-- Acesse a pasta **backend** *(cd aircnc > enter > cd backend)* e execute **npm install / yarn install**, aguarde a instalação das dependências do **backend** e abra no VSCode com o comando **code .**;
+- Execute o *BackEnd*: **cd aircnc > enter > cd backend > npm/yarn install > enter > concluído? > code .**. No *VS Code* acesse o arquivo **src/server.js** e configure a **URL da MongoDB**; Acesse o arquivo **src/models/Spot.js** e configure o **IP do SpotSchema**. Rode o *BackEnd* com o comando **npm /yarn dev**;
 
-- No diretório **backend**, acesse o arquivo **src/server.js** para configurar a *URL de conexão com a MongoDB* e o arquivo **src/models/Spot.js** para configurar o *IP do SpotSchema para exibir as imagens dos Spots*. Feito isso, execute o **backend** com o comando **npm dev / yarn dev**;
+- Execute o *FrontEnd:* **cd . . > enter > cd frontend > npm/yarn install > enter > concluído? > code .**. Rode o *FrontEnd* com o comando **npm/yarn start**;
 
-- Acesse a pasta **frontend** *(cd . . > enter > cd frontend)* e execute **npm install / yarn install**, aguarde a instalação das dependências do **frontend** e abra no VSCode com o comando **code .** . Feito isso, execute o **frontend** com o comando **npm start / yarn start** e aguarde abrir automaticamente no seu navegador principal;
-
-- Acesse a pasta **mobile** *(cd . . > enter > cd mobile)* e execute **npm install / yarn install**, aguarde a instalação das dependências do **mobile** e abra no VSCode com o comando **code .**;
-
-- No diretório **mobile**, acesse o arquivo **src/services/api.js** para configurar o *IP de conexão com a API* e o arquivo **src/pages/List.js** para configurar o *IP dos WebSockets*. Feito isso, execute o **mobile** com o comando **npm start / yarn start**, aguarde abrir automaticamente o Expo no seu navegador principal e leia o QRCODE para abrir o **App Mobile** no seu **Smartphone**.
+- Execute o *Mobile:* **cd . . > enter > cd mobile > npm/yarn install > enter > concluído? > code .**. No *VS Code* acesse o arquivo **src/services/api.js** e configure o **IP da API**; Acesse o arquivo **src/pages/List.js** e configure o **IP dos WebSockets**. Rode o *Mobile* com o comando **npm/ yarn start**;
 
 ## :fuelpump: Autor
 
-- Esse Projeto foi desenvolvido durante a **OmniStack Week 9** da <a href="https://rocketseat.com.br/">Rocketseat</a>, workshop online que aconteceu em **Outubro de 2019**;
+- Projeto desenvolvido durante a **Semana OmniStack 9** da <a href="https://rocketseat.com.br/">Rocketseat</a>, ocorrida em **Outubro de 2019**;
 
-- O **repositório oficial** pode ser acessado <a href="https://github.com/rocketseat-education/semana-omnistack-9">aqui</a>.
+- Acesse  <a href="https://github.com/rocketseat-education/semana-omnistack-9">aqui</a> o *repositório oficial* da aplicação.
 
 ## :memo: Licença
 
