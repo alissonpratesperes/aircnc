@@ -4,7 +4,7 @@ ___
 
 <p align="center">  💻&nbsp;&nbsp;Air Code & Coffee&nbsp;&nbsp;☕  </p>
 <p align="center">
-<a href="https://www.instagram.com/a_pratesperes"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Alisson%20P.%20Peres-%23F05A5B"/></a>
+<a href="https://www.instagram.com/a_pratesperes"><img alt="Event Name" src="https://img.shields.io/badge/omnistack%20week-%209.0-%23F05A5B"/></a>
 <img alt="GitHub Language Count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/aircnc?color=F05A5B"/>
 <a href="https://github.com/alissonpratesperes/aircnc/search?l=javascript"><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alissonpratesperes/aircnc?color=F05A5B"/></a>
 <img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/alissonpratesperes/aircnc?color=F05A5B">
@@ -36,12 +36,12 @@ O **AirCnC** é um projeto que visa conectar empresas que querem abrir spots e d
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- <a href="https://www.npmjs.com/">NPM</a> / <a href="https://yarnpkg.com/">YARN</a>;
-- <a href="https://nodejs.org/en">NodeJS</a>;
-- <a href="https://www.mongodb.com/">MongoDB</a>;
-- <a href="https://reactjs.org/">ReactJS</a>;
-- <a href="https://reactnative.dev/">React Native</a>;
-- <a href="https://expo.io/">Expo-CLI</a>;
+- <a href="https://www.npmjs.com/">Npm</a> / <a href="https://yarnpkg.com/">Yarn</a>
+- <a href="https://nodejs.org/en">NodeJS</a>
+- <a href="https://www.mongodb.com/">MongoDB</a>
+- <a href="https://reactjs.org/">ReactJS</a>
+- <a href="https://reactnative.dev/">React Native</a>
+- <a href="https://expo.io/">Expo</a>
 
 ## :electric_plug: Execute
 
