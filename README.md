@@ -4,7 +4,7 @@ ___
 
 <p align="center">  💻&nbsp;&nbsp;Air Code & Coffee&nbsp;&nbsp;☕  </p>
 <p align="center">
-<a href="https://www.instagram.com/a_pratesperes"><img alt="Event Name" src="https://img.shields.io/badge/omnistack%20week-%209.0-%23F05A5B"/></a>
+<img alt="Event Name" src="https://img.shields.io/badge/omnistack-week%209-%23F05A5B"/>
 <img alt="GitHub Language Count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/aircnc?color=F05A5B"/>
 <a href="https://github.com/alissonpratesperes/aircnc/search?l=javascript"><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alissonpratesperes/aircnc?color=F05A5B"/></a>
 <img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/alissonpratesperes/aircnc?color=F05A5B">
@@ -61,7 +61,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :memo: Licença
 
-- Esse projeto está sob a **Licença MIT**. Veja o arquivo [LICENSE](https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a **Licença MIT**. Veja o arquivo [LICENSE](https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE) para mais detalhes.
 
 ---
 
