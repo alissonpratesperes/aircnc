@@ -2,7 +2,6 @@
 
 ___
 
-<p align="center">  💻&nbsp;&nbsp;Air Code & Coffee&nbsp;&nbsp;☕  </p>
 <p align="center">
 <img alt="Event Name" src="https://img.shields.io/badge/omnistack-week%209-%23F05A5B"/>
 <img alt="GitHub Language Count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/aircnc?color=F05A5B"/>
