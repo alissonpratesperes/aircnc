@@ -42,7 +42,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :electric_plug: Execute
 
-- Através do **Terminal(MacOS)** ou **Prompt de Comando(Windows)** acesse os diretórios através do comando **cd . . / cd 'diretório'**. *Abra um **terminal** por diretório pois será necessário deixar cada **stack** rodando separadamente*, para facilitar utilize o **Toggle Integrated Terminal** do VSCode;
+<p align="justify"> Através do **Terminal(MacOS)** ou **Prompt de Comando(Windows)** acesse os diretórios através do comando **cd . . / cd 'diretório'**. *Abra um **terminal** por diretório pois será necessário deixar cada **stack** rodando separadamente*, para facilitar utilize o **Toggle Integrated Terminal** do VSCode; </p>
 
 - Execute o *BackEnd*: **cd aircnc > enter > cd backend > npm/yarn install > enter > concluído? > code .**. No *VS Code* acesse o arquivo **src/server.js** e configure a **URL da MongoDB**; Acesse o arquivo **src/models/Spot.js** e configure o **IP do SpotSchema**. Rode o *BackEnd* com o comando **npm/yarn dev**;
 
