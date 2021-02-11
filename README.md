@@ -10,7 +10,7 @@
 <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/alissonpratesperes/aircnc?color=F05A5B"></a>
 <a href ="https://github.com/alissonpratesperes/aircnc/blob/main/LICENSE"> <img alt="GitHub License" src="https://img.shields.io/badge/license-MIT-F05A5B"> </a>
 </p>
-
+<br/>
 <p align="center">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -42,7 +42,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :electric_plug: Execute
 
-<p align="justify"> Através do **Terminal(MacOS)** ou **Prompt de Comando(Windows)** acesse os diretórios através do comando **cd . . / cd 'diretório'**. *Abra um **terminal** por diretório pois será necessário deixar cada **stack** rodando separadamente*, para facilitar utilize o **Toggle Integrated Terminal** do VSCode; </p>
+- Através do **Terminal(MacOS)** ou **Prompt de Comando(Windows)** acesse os diretórios através do comando **cd . . / cd 'diretório'**. *Abra um **terminal** por diretório pois será necessário deixar cada **stack** rodando separadamente*, para facilitar utilize o **Toggle Integrated Terminal** do VSCode;
 
 - Execute o *BackEnd*: **cd aircnc > enter > cd backend > npm/yarn install > enter > concluído? > code .**. No *VS Code* acesse o arquivo **src/server.js** e configure a **URL da MongoDB**; Acesse o arquivo **src/models/Spot.js** e configure o **IP do SpotSchema**. Rode o *BackEnd* com o comando **npm/yarn dev**;
 
