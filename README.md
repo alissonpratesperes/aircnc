@@ -1,5 +1,5 @@
 ﻿___
- <p align="center"> <img src="github/aircnc_logo.png" width="30%"> </p>
+<p align="center"> <img src="github/aircnc_logo.png" width="30%"> </p>
 <br/>
 <p align="center">
 <img alt="Event Name" src="https://img.shields.io/badge/omnistack-week%209-%23F05A5B"/>
