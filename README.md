@@ -21,3 +21,5 @@
     <a href="#memo-licença">Licença</a>
 </p>
     <br/>
+
+<p align="center"> <img src="github/aircnc_dashboard.jpg" width="100%"/> </p>
