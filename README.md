@@ -23,3 +23,18 @@
     <br/>
 
 <p align="center"> <img src="github/aircnc_dashboard.jpg" width="100%"/> </p>
+
+## :dart: Sobre
+A **AirCnC** é uma Aplicação que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com outros devs, conhecer a empresa e trabalhar lá por um período.
+
+## :battery: Tecnologias
+Essa Aplicação foi desenvolvida utilizando as seguintes tecnologias:
+
+- <a href="https://insomnia.rest/">Insomnia</a>
+- <a href="https://mongodb.com/">Mongo DB</a>
+- <a href="https://nodejs.org/">NodeJS</a>
+- <a href="https://socket.io/">Socket IO</a>
+- <a href="https://reactjs.org/">ReactJS</a>
+- <a href="https://axios-http.com/">Axios</a>
+- <a href="https://expo.dev/">Expo IO</a>
+- <a href="https://reactnative.dev/">React Native</a>
