@@ -22,7 +22,7 @@
 </p>
     <br/>
 
-<p align="center"> <img src="github/aircnc_dashboard.jpg" width="100%"/> </p>
+<p align="center"> <img src="github/aircnc_dashboard.png" width="100%"/> </p>
 
 ## :dart: Sobre
 A **AirCnC** é uma Aplicação que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com outros devs, conhecer a empresa e trabalhar lá por um período.
