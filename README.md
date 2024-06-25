@@ -22,25 +22,17 @@ A **aircnc** é uma Aplicação que visa conectar Empresas que querem abrir Spot
 
 ## TECNOLOGIA
 
-  TOOLING
+TOOLING | <a href="https://insomnia.rest/">Insomnia</a> • <a href="https://expo.dev/">Expo IO</a>
 
-<a href="https://insomnia.rest/">Insomnia</a><br/>
-<a href="https://mongodb.com/">MongoDB</a><br/>
+DATABASE | <a href="https://mongodb.com/">MongoDB</a>
 
-  BACK-END
+INTEGRATION | <a href="https://socket.io/">Socket IO</a> • <a href="https://axios-http.com/">Axios</a>
 
-<a href="https://nodejs.org/">NodeJS</a><br/>
-<a href="https://socket.io/">Socket IO</a><br/>
+BACK-END | <a href="https://nodejs.org/">NodeJS</a>
 
-  FRONT-END
+FRONT-END | <a href="https://reactjs.org/">ReactJS</a>
 
-<a href="https://axios-http.com/">Axios</a><br/>
-<a href="https://reactjs.org/">ReactJS</a><br/>
-
-  MOBILE
-
-<a href="https://expo.dev/">Expo IO</a><br/>
-<a href="https://reactnative.dev/">React Native</a><br/>
+MOBILE | <a href="https://reactnative.dev/">React Native</a>
 
 ## EXECUTE
 
