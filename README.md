@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="./github/aircnc-logo.png" alt="aircnc-logo" width="30%"/>
+  <img src="./github/aircnc-logo.png" alt="aircnc-logo" width="50%"/>
 </p>
 
 ___
@@ -18,25 +18,64 @@ ___
 
 ## SOBRE
 
-A **aircnc** é uma Aplicação que visa conectar Empresas que querem abrir Spots e Desenvolvedores que procuram um lugar para trocar ideias com outros Devs conhecer a empresa e trabalhar lá por um período
+A **aircnc** é uma Aplicação inspirada no Airbnb, que visa conectar empresas que querem abrir Spots e Desenvolvedores que procuram um lugar para trocar ideias com outros Devs, conhecer a empresa e trabalhar lá por um período.
 
 ## TECNOLOGIA
 
-TOOLING | <a href="https://insomnia.rest/">Insomnia</a> • <a href="https://expo.dev/">Expo IO</a>
+<details>
+  <summary><strong>Tooling</strong></summary>
 
-DATABASE | <a href="https://mongodb.com/">MongoDB</a>
+  <ul>
+    <li><a href="https://insomnia.rest/">Insomnia</a></li>
+    <li><a href="https://expo.dev/">Expo IO</a></li>
+  </ul>
+</details>
 
-INTEGRATION | <a href="https://expressjs.com/">Express</a> • <a href="https://axios-http.com/">Axios</a> • <a href="https://socket.io/">Socket IO</a>
+<details>
+  <summary><strong>Database</strong></summary>
 
-BACK-END | <a href="https://nodejs.org/">NodeJS</a>
+  <ul>
+    <li><a href="https://mongodb.com/">Mongo DB</a></li>
+  </ul>
+</details>
 
-FRONT-END | <a href="https://reactjs.org/">ReactJS</a>
+<details>
+  <summary><strong>Integration</strong></summary>
 
-MOBILE | <a href="https://reactnative.dev/">React Native</a>
+  <ul>
+    <li><a href="https://socket.io/">Socket IO</a></li>
+    <li><a href="https://expressjs.com/">Express</a></li>
+    <li><a href="https://axios-http.com/">Axios</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Back-End</strong></summary>
+
+  <ul>
+    <li><a href="https://nodejs.org/">Node JS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Front-End</strong></summary>
+
+  <ul>
+    <li><a href="https://reactjs.org/">React JS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Mobile</strong></summary>
+
+  <ul>
+    <li><a href="https://reactnative.dev/">React Native</a></li>
+  </ul>
+</details>
 
 ## EXECUTE
 
-    - Clonar o Repositório
+    - Clonar este repositório
     - Acessar o Back-End: "./backend"
         |- Instalar as dependências com o Comando: "npm install --force"
         |- Acessar o arquivo: "./backend/src/server.js:13" e verificar URL de Conexão com o Banco de Dados
@@ -57,7 +96,7 @@ MOBILE | <a href="https://reactnative.dev/">React Native</a>
 
 Projeto desenvolvido durante a **Omni Stack Week 09** da <a href="https://rocketseat.com.br/">Rocketseat</a> ocorrida em **Outubro de 2019**
 
-Acesse <a href="https://github.com/rocketseat-education/semana-omnistack-9">aqui</a> o **repositório oficial** do Projeto
+Acesse <a href="https://github.com/rocketseat-education/semana-omnistack-9">aqui</a> o **repositório oficial** da aplicação
 
 ## LICENÇA
 
@@ -65,4 +104,4 @@ Esse projeto está sob a **Licença MIT** veja o arquivo [LICENSE](https://githu
 
 ___
 
-<p align="center">✍🏻&nbsp;with&nbsp;❤️&nbsp;by&nbsp;<a href="https://github.com/alissonpratesperes">me</a>&nbsp👨🏻‍💻</p>
+<p align="center">👨🏻‍💻&nbsp;with&nbsp;❤️</p>
